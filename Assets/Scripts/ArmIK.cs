@@ -15,6 +15,13 @@ public class ArmIK : MonoBehaviour
     [Header("링크 길이 (직접 입력)")]
     public float[] linkLengths;
 
+    [Header("집게")]
+    public Transform gripperL;
+    public Transform gripperR;
+    [Range(0f, 1f)] public float gripValue = 0f;
+    public float gripOpenPos = 0.2f;
+    public float gripClosePos = 0.05f;
+
     private Vector3[] positions;
 
     void Start()
@@ -67,6 +74,19 @@ public class ArmIK : MonoBehaviour
         // 마지막 Joint는 이전 방향 그대로 따라가게
         joints[joints.Length - 1].position = positions[joints.Length - 1];
         joints[joints.Length - 1].rotation = joints[joints.Length - 2].rotation;
+
+        // 집게 제어
+        if (gripperL != null && gripperR != null)
+        {
+            float pos = Mathf.Lerp(gripOpenPos, gripClosePos, gripValue);
+            var posL = gripperL.localPosition;
+            posL.x = -pos;
+            gripperL.localPosition = posL;
+
+            var posR = gripperR.localPosition;
+            posR.x = pos;
+            gripperR.localPosition = posR;
+        }
     }
 
     void OnDrawGizmos()
