@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\unity\\robotarm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:2:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|d:\\unity\\robotarm\\assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|d:\\unity\\robotarm\\assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HTTPSender.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HTTPSender.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HTTPSender.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwFAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:57:56.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Assets\\Scripts\\HTTPSender.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HTTPSender.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HTTPSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T10:32:12.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HUDController.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUDController.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUDController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABDAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADBSURBVDhPY2AYBQwMDAwMN17c\u002BO\u002B1yv2/4ETe/9aLLf7feHH9P7L8vHNz4XxkNhxYLzb/33yo4T8DAwND06GG/16r3FEUCU7khfOR2QwMDAyMMMH3\u002BZ8ZYYK6czX/X06\u002Bzjjv3Nz/xYcLkNXDgausO8OqoDUQPeimogN8LmBC5pADsBqgO1fzPwM0wGA2Ck7kRWGHrQtBuMRzlfv/5sONkEA83PjferEF0YHIwACNRqtF5v8FJ/L\u002B91zpRno0jnAAAA95Yu0ct6ifAAAAAElFTkSuQmCC",
+              "WhenOpened": "2026-06-10T05:57:56.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CameraStream.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\CameraStream.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraStream.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\CameraStream.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraStream.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAG8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:57:56.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RobotController.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\RobotController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RobotController.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\RobotController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RobotController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAgwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T05:57:56.093Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
