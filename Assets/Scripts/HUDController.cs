@@ -3,44 +3,50 @@ using TMPro;
 
 public class HUDController : MonoBehaviour
 {
+    [Header("=== 왼손 패널 사용 여부 ===")]
+    public bool useLeftPanel = true;
+
+    [Header("=== 오른손 패널 사용 여부 ===")]
+    public bool useRightPanel = false;
+
     [Header("컨트롤러")]
     public RobotController robotController;
 
-    [Header("HUD 텍스트 - 왼손 (좌하단)")]
+    [Header("왼손 HUD 텍스트")]
     public TextMeshProUGUI leftHUD;
 
-    [Header("HUD 텍스트 - 오른손 (우하단)")]
+    [Header("오른손 HUD 텍스트")]
     public TextMeshProUGUI rightHUD;
+
+    [Header("좌표 변환 스케일 (HTTPSender와 동일하게)")]
+    public float coordScale = 280f;
 
     void Update()
     {
         if (robotController == null) return;
 
-        UpdateLeftHUD();
-        UpdateRightHUD();
+        if (useLeftPanel)  UpdateLeftHUD();
+        if (useRightPanel) UpdateRightHUD();
     }
 
     void UpdateLeftHUD()
     {
         if (leftHUD == null) return;
 
-        Vector3 handPos = robotController.leftHandPosition;
+        Vector3 handPos  = robotController.leftHandPosition;
         Vector3 calibPos = robotController.leftCalibOffset;
-        bool calibed = robotController.leftCalibrated;
+        bool    calibed  = robotController.leftCalibrated;
 
-        // 로봇 좌표계로 변환 (HTTPSender와 동일한 scale)
-        float scale = 300f;
         Vector3 robotPos = new Vector3(
-             handPos.z * scale,
-            -handPos.x * scale,
-             handPos.y * scale
+             handPos.z * coordScale,
+            -handPos.x * coordScale,
+             handPos.y * coordScale
         );
 
         leftHUD.text =
-            $"[L] {(calibed ? "CAL OK" : "NO CAL")}\n" +
-            $"Hand  X:{handPos.x:F2} Y:{handPos.y:F2} Z:{handPos.z:F2}\n" +
-            $"Robot X:{robotPos.x:F0} Y:{robotPos.y:F0} Z:{robotPos.z:F0}mm\n" +
-            $"Calib X:{calibPos.x:F2} Y:{calibPos.y:F2} Z:{calibPos.z:F2}\n" +
+            $"<b>LEFT ARM</b> {(calibed ? "<color=#00FF88>● CAL</color>" : "<color=#FF4444>○ NO CAL</color>")}\n" +
+            $"Hand  {handPos.x:F2} {handPos.y:F2} {handPos.z:F2}\n" +
+            $"Robot {robotPos.x:F0} {robotPos.y:F0} {robotPos.z:F0} mm\n" +
             $"Grip  {robotController.leftTrigger * 100:F0}%";
     }
 
@@ -48,22 +54,19 @@ public class HUDController : MonoBehaviour
     {
         if (rightHUD == null) return;
 
-        Vector3 handPos = robotController.rightHandPosition;
-        Vector3 calibPos = robotController.rightCalibOffset;
-        bool calibed = robotController.rightCalibrated;
+        Vector3 handPos  = robotController.rightHandPosition;
+        bool    calibed  = robotController.rightCalibrated;
 
-        float scale = 300f;
         Vector3 robotPos = new Vector3(
-             handPos.z * scale,
-            -handPos.x * scale,
-             handPos.y * scale
+             handPos.z * coordScale,
+            -handPos.x * coordScale,
+             handPos.y * coordScale
         );
 
         rightHUD.text =
-            $"[R] {(calibed ? "CAL OK" : "NO CAL")}\n" +
-            $"Hand  X:{handPos.x:F2} Y:{handPos.y:F2} Z:{handPos.z:F2}\n" +
-            $"Robot X:{robotPos.x:F0} Y:{robotPos.y:F0} Z:{robotPos.z:F0}mm\n" +
-            $"Calib X:{calibPos.x:F2} Y:{calibPos.y:F2} Z:{calibPos.z:F2}\n" +
+            $"<b>RIGHT ARM</b> {(calibed ? "<color=#00FF88>● CAL</color>" : "<color=#FF4444>○ NO CAL</color>")}\n" +
+            $"Hand  {handPos.x:F2} {handPos.y:F2} {handPos.z:F2}\n" +
+            $"Robot {robotPos.x:F0} {robotPos.y:F0} {robotPos.z:F0} mm\n" +
             $"Grip  {robotController.rightTrigger * 100:F0}%";
     }
 }
