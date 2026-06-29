@@ -1091,7 +1091,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8bb647bdfd9be9e449d77601a31cf114, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1159,41 +1159,29 @@ MonoBehaviour:
     tex: {fileID: 0}
     pending: 
     running: 0
-  leftRGB:
+  leftCape:
     enabled: 1
     serverIP: 192.168.1.100
     serverPort: 5000
-    endpoint: /video_feed
-    targetScreen: {fileID: 0}
-    tex: {fileID: 0}
-    pending: 
+    rgbEndpoint: /video_feed
+    depthEndpoint: /depth_feed
+    capeScreen: {fileID: 0}
+    rgbTex: {fileID: 0}
+    depthTex: {fileID: 0}
+    rgbPending: 
+    depthPending: 
     running: 0
-  leftDepth:
+  rightCape:
     enabled: 1
     serverIP: 192.168.1.100
     serverPort: 5000
-    endpoint: /video_feed
-    targetScreen: {fileID: 0}
-    tex: {fileID: 0}
-    pending: 
-    running: 0
-  rightRGB:
-    enabled: 1
-    serverIP: 192.168.1.100
-    serverPort: 5000
-    endpoint: /video_feed
-    targetScreen: {fileID: 0}
-    tex: {fileID: 0}
-    pending: 
-    running: 0
-  rightDepth:
-    enabled: 1
-    serverIP: 192.168.1.100
-    serverPort: 5000
-    endpoint: /video_feed
-    targetScreen: {fileID: 0}
-    tex: {fileID: 0}
-    pending: 
+    rgbEndpoint: /video_feed
+    depthEndpoint: /depth_feed
+    capeScreen: {fileID: 0}
+    rgbTex: {fileID: 0}
+    depthTex: {fileID: 0}
+    rgbPending: 
+    depthPending: 
     running: 0
 --- !u!4 &309132717
 Transform:
@@ -3247,7 +3235,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 798f0448b011c3144919e1a0304c2f53, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

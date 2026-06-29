@@ -69,35 +69,28 @@ public class HTTPSender : MonoBehaviour
     {
         if (robotController == null || workspaceSphere == null) return;
 
-        // 컨트롤러 월드 위치
         Vector3 handWorld = robotController.leftHandPosition + robotController.leftCalibOffset;
         Vector3 sphereCenter = workspaceSphere.position;
         float sphereRadius = workspaceSphere.lossyScale.x * 0.5f;
 
-        // 스피어 기준 상대 위치
         Vector3 offset = handWorld - sphereCenter;
         if (offset.magnitude > sphereRadius)
             offset = offset.normalized * sphereRadius;
 
-        // 정규화 (-1 ~ 1)
         Vector3 normalized = offset / sphereRadius;
 
-        // Unity → 로봇 좌표계 매핑
         Vector3 robotPos = new Vector3(
             normalized.z * robotReach,
             normalized.x * robotReach * -1f,
             81f + normalized.y * robotReach
         );
 
-        // 컨트롤러 pitch → 모터4 (손목 pitch)
         float pitch = robotController.leftHandRotation.eulerAngles.x;
         if (pitch > 180f) pitch -= 360f;
 
-        // 컨트롤러 roll → 모터5 (손목 roll)
         float roll = robotController.leftHandRotation.eulerAngles.z;
         if (roll > 180f) roll -= 360f;
 
-        // Lerp 스무딩
         _smoothPos = Vector3.Lerp(_smoothPos, robotPos, smoothSpeed);
         _smoothGrip = Mathf.Lerp(_smoothGrip, Mathf.Lerp(60f, 165f, robotController.leftTrigger), smoothSpeed);
         _smoothPitch = Mathf.Lerp(_smoothPitch, pitch, smoothSpeed * 0.3f);
@@ -145,5 +138,6 @@ public class HTTPSender : MonoBehaviour
         if (req.result != UnityWebRequest.Result.Success)
             Debug.LogWarning($"HTTP 실패: {req.error}");
     }
+
     public Vector3 GetTargetPos() => _smoothPos;
 }
