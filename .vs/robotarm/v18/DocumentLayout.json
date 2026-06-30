@@ -1,34 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\unity\\robotarm\\robotarm\\",
+  "WorkspaceRootPath": "D:\\unity\\robotarm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\robotarm\\assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:1:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|d:\\unity\\robotarm\\assets\\scripts\\hudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|d:\\unity\\robotarm\\robotarm\\assets\\scripts\\armcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|d:\\unity\\robotarm\\assets\\scripts\\armcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\armcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\CameraStream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraStream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\robotarm\\assets\\scripts\\hudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\robotarm\\assets\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hudcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\robotarm\\assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:1:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\httpsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\robotcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\robotarm\\assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:2:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|D:\\unity\\robotarm\\assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerastream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|d:\\unity\\robotarm\\assets\\scripts\\hudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{0DE43639-B5B3-572D-51EC-02411E045BFC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\hudslider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,41 +42,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HTTPSender.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HTTPSender.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HTTPSender.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwI4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-27T09:57:44.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HUDSlider.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDSlider.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HUDSlider.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDSlider.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HUDSlider.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA3wE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-30T11:59:56.252Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ArmCollision.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\ArmCollision.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\ArmCollision.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ArmCollision.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\ArmCollision.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\ArmCollision.cs",
               "RelativeToolTip": "Assets\\Scripts\\ArmCollision.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwEcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-27T09:57:44.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CameraStream.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\CameraStream.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\CameraStream.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraStream.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\CameraStream.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\CameraStream.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraStream.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAgwN8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAgwJ8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-28T14:10:50.42Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-28T14:10:50.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "HUDSlider.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\HUDSlider.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDSlider.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HUDSlider.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\HUDSlider.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDSlider.cs",
               "RelativeToolTip": "Assets\\Scripts\\HUDSlider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -81,37 +109,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HTTPSender.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\HTTPSender.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\HTTPSender.cs",
-              "RelativeToolTip": "Assets\\Scripts\\HTTPSender.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAYwI4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T09:57:44.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "HUDController.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\HUDController.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\HUDController.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\HUDController.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\HUDController.cs",
               "RelativeToolTip": "Assets\\Scripts\\HUDController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T09:57:44.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T09:57:44.207Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "CameraStream.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\CameraStream.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\CameraStream.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraStream.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\CameraStream.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\CameraStream.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraStream.cs",
               "ViewState": "AgIAAFIAAAAAAAAAAAAAAG8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -121,14 +135,13 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "RobotController.cs",
-              "DocumentMoniker": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\RobotController.cs",
+              "DocumentMoniker": "D:\\unity\\robotarm\\Assets\\Scripts\\RobotController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RobotController.cs",
-              "ToolTip": "D:\\unity\\robotarm\\robotarm\\Assets\\Scripts\\RobotController.cs",
+              "ToolTip": "D:\\unity\\robotarm\\Assets\\Scripts\\RobotController.cs",
               "RelativeToolTip": "Assets\\Scripts\\RobotController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAgwF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-27T09:57:44.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-27T09:57:44.208Z"
             }
           ]
         }

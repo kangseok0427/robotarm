@@ -10,9 +10,9 @@ public class HUDController : MonoBehaviour
     [Header("컨트롤러")]
     public RobotController robotController;
 
-    [Header("HUD 텍스트 (TextMeshPro 3D 오브젝트)")]
-    public TextMeshPro leftHUD;
-    public TextMeshPro rightHUD;
+    [Header("HUD 텍스트 (Canvas 안의 UI 텍스트)")]
+    public TextMeshProUGUI leftHUD;
+    public TextMeshProUGUI rightHUD;
 
     [Header("좌표 스케일 (HTTPSender와 동일)")]
     public float coordScale = 280f;
